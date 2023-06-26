@@ -36,7 +36,7 @@ void factorize(long long n)
 		}
 	}
 	/* if n is prime, print n and 1 as its prime factor */
-	printf("%lld=%lld*%lld\n", n, n, 1);
+	printf("%lld=%lld*%d\n", n, n, 1);
 }
 
 /**
